@@ -70,6 +70,11 @@ img {
   font-style: normal;
 }
 
+.icon-envelope {
+  margin-right: 10px;
+  transform-origin: 10px 10px;
+}
+
 .website-logo-header {
   font-family: var(--secondary-font);
   font-weight: 700;
@@ -208,10 +213,22 @@ img {
 }
 
 .hero {
-  background-color: var(--dark-background);
+  max-height: 600px;
   text-align: center;
   padding-top: 200px;
   padding-bottom: 200px;
+}
+
+.overlay {
+  max-width: 1600px;
+  height: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  background-size: cover;
+  height: 600px;
+  background-color: #c4c4c4;
+  background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+    url(../images/bcg-image.jpg);
 }
 
 .hero-title {
@@ -365,6 +382,23 @@ img {
   margin-top: 10px;
 
   color: var(--secondary-ligth-txt);
+}
+
+.clients {
+  background-color: var(--light-background);
+}
+
+.clients-title {
+  font-family: var(--main-font);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
+  margin-bottom: 50px;
+
+  color: var(--primary-dark-txt);
+  margin-bottom: 50px;
 }
 
 .footer {
