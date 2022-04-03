@@ -248,6 +248,7 @@ img {
   width: 696px;
   margin-right: auto;
   margin-left: auto;
+  margin-bottom: 30px;
   font-family: var(--main-font);
   font-weight: 900;
   font-size: 44px;
@@ -410,6 +411,7 @@ img {
   border: 1px solid #afb1b8;
   box-sizing: border-box;
   border-radius: 4px;
+  color: #afb1b8;
 }
 
 .clients-link:hover,
@@ -475,27 +477,22 @@ img {
 }
 
 .team-link:hover {
+  color: var(--light-background);
   background-color: var(--background-button-clr);
 }
 
 .team-link:focus {
+  color: var(--light-background);
   background-color: var(--background-button-clr);
 }
 
-.team-link.team-icon:hover {
-  fill: var(--light-background);
-}
-
-.team-link.team-icon:focus {
-  fill: var(--light-background);
-}
-
 .clients-icon {
-  fill: #afb1b8;
+  fill: currentColor;
 }
 
 .clients-link:hover,
 .clients-link:focus {
+  color: var(--background-button-clr);
   fill: var(--background-button-clr);
 }
 
